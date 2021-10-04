@@ -9,8 +9,8 @@
   <distributionManagement>
     <repository>
       <id>github</id>
-      <name>GitHub PlutoTV Apache Maven Packages</name>
-      <url>https://github.com/orgs/manojplutotv/packages/bug-free-guide</url>
+      <name>GitHub Packages</name>
+      <url>https://github.com/manojplutotv/packages/bug-free-guide</url>
     </repository>
   </distributionManagement>
 

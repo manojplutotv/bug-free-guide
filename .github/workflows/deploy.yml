@@ -15,7 +15,4 @@ jobs:
         with:
           java-version: 17
       - name: Deploy to Github Package Registry
-        env:
-          GITHUB_USERNAME: Pluto-tv
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -B -s settings.xml --file pom.xml deploy
+        run: mvn --batch-mode -s settings.xml --file pom.xml deploy
