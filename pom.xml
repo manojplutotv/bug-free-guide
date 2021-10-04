@@ -10,7 +10,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://github.com/manojplutotv/packages/bug-free-guide</url>
+      <url>https://github.com/manojplutotv/bug-free-guide</url>
     </repository>
   </distributionManagement>
 
