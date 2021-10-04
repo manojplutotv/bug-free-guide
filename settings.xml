@@ -17,9 +17,9 @@
         </repository>
         <repository>
           <id>github</id>
-          <url>https://maven.pkg.github.com/manojplutotv</url>
+          <url>https://maven.pkg.github.com/manojplutotv/*</url>
           <snapshots>
-            <enabled>false</enabled>
+            <enabled>true</enabled>
           </snapshots>
         </repository>
       </repositories>
