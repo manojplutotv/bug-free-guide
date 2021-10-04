@@ -1,0 +1,21 @@
+name: Maven Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Set up JDK 17
+        uses: actions/setup-java@v1
+        with:
+          java-version: 17
+      - name: Deploy to Github Package Registry
+        env:
+          GITHUB_USERNAME: Pluto-tv
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mvn -B -s settings.xml --file pom.xml deploy
