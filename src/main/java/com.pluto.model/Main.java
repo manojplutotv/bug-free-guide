@@ -11,11 +11,9 @@ public class Main {
 
   public void main(String[] args) {
     //    regexYaml.getInputStream()
-    System.out.println("testtt......."            );
-    if     (true)     {
-      System.out.println(" HELLLLOOOOOO..."
-
-      );
+    System.out.println("testtt.......");
+    if (true) {
+      System.out.println(" HELLLLOOOOOO...");
     }
   }
 }
