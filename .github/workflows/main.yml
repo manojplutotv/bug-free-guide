@@ -1,7 +1,7 @@
 # Example workflow
 name: Format
 
-on: [pull_request]
+on: [push]
 
 jobs:
 
