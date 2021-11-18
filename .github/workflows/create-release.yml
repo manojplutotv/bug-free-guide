@@ -4,13 +4,14 @@ name: Maven Create Release
   workflow_dispatch:
     inputs:
       repo-name:
+        type: choice
         required: true
         default: de-nile-data-model
-        description: Provid input number for the app you want to release           
-                    1) de-nile-enrichment
-                    2) de-nile-data-model
-                    3) de-nile-data-model
-                    4) de-nile-data-model
+        options:
+        - de-nile-enrichment
+        - de-nile-data-model
+        - de-nile-data-model
+        - de-nile-data-model
       branch-name:
         required: true
         default: master
