@@ -6,7 +6,11 @@ name: Maven Create Release
       repo-name:
         required: true
         default: de-nile-data-model
-        description: Options 1) de-nile-enrichment 2) de-nile-data-model 3) de-nile-data-model 4) de-nile-data-model
+        description: Provid input number for the app you want to release
+                    1) de-nile-enrichment
+                    2) de-nile-data-model
+                    3) de-nile-data-model
+                    4) de-nile-data-model
       branch-name:
         required: true
         default: master
