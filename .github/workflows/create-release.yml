@@ -16,6 +16,9 @@ name: Maven Create Release
         required: true
         default: master
         description: branch name of the repo you want to release
+      environment:
+        type: environment
+        description: branch name of the repo you want to release
 
 
 jobs:
