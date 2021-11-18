@@ -1,0 +1,21 @@
+name: Maven Create Release
+
+"on":
+  workflow_dispatch:
+    inputs:
+      repo-name:
+        required: true
+        default: de-nile-data-model
+        description: Options 1) de-nile-enrichment 2) de-nile-data-model 3) de-nile-data-model 4) de-nile-data-model
+      branch-name:
+        required: true
+        default: master
+        description: branch name of the repo you want to release
+
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout deployment repo
+        uses: actions/checkout@v2
