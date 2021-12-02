@@ -36,7 +36,7 @@ public class AvroErrorMessageSchemaBuilder {
             .name("customContextIndex")
             .doc("First index of invalid event if we do not split jsonEvent into bad and good")
             .type(OPTIONAL_INTEGER).withDefault(null)
-
+//sdfgdnfjgdfjg
             .endRecord();
 
         Schema errorMessageSchema = SchemaBuilder
