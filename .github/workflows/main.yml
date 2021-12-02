@@ -17,6 +17,7 @@ jobs:
           java-version: 17
       - uses: axel-op/googlejavaformat-action@v3
         with:
+          args: "-n --set-exit-if-changed"
           version: 1.13.0
           files: src/main/java/com.pluto.model/**/*.java
 
