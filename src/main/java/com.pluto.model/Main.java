@@ -16,14 +16,7 @@ public class Main {
 
     if (true) {
 
-
-
-
-      System.out.println(" HELLLLOOOOOO...")
-
-
-
-      ;
+      System.out.println(" HELLLLOOOOOO...");
     }
   }
 }
