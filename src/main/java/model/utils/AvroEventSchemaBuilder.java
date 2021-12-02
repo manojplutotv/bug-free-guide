@@ -829,8 +829,16 @@ public class AvroEventSchemaBuilder {
             - If the User is casting to another device (i.e. the User's current screen is simply a
             remote to control the video), populate value with "cast".
             - If the User is in PIP mode, populate value with "pip"
+            
+            
+            
+            
+           
             - if the User is in guide-pip mode, populate "guide-pip".""")
-        .type(OPTIONAL_STRING).withDefault(null)
+        .
+
+
+            type(OPTIONAL_STRING      ).   withDefault(null)
 
         .name("playerName")
         .doc("Identifies the name of the video player being used by the app.")
